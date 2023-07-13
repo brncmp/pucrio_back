@@ -24,3 +24,6 @@ Swagger em:
     http://127.0.0.1:8000/swagger.json
     http://127.0.0.1:8000/swagger.yaml
     http://127.0.0.1:8000/redoc
+
+Figma em:
+    https://www.figma.com/file/IbEeaNBYqEB5ZzQPaK6et7/mvp2?type=design&node-id=13%3A89&mode=design&t=EZSRXHZnTin0KuSD-1
