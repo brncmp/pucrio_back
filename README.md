@@ -1,4 +1,4 @@
-Este pequeno projeto corresponde ao backend MVP da Disciplina Desenvolvimento Full Stack Basico - PUCRIO
+Este pequeno projeto corresponde ao backend MVP de Desenvolvimento Full Stack - PUCRIO
 
 ORIENTAÇOES PARA RODAR O PROJETO BACKEND
 
