@@ -20,3 +20,12 @@ class ProductsViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.ProductsSerializer
     queryset = models.Products.objects.all()
     pagination_class = pagination.MyCustomPagination
+
+class RequestsViewSet(viewsets.ModelViewSet):
+    serializer_class = serializers.RequestsSerializer
+    queryset = models.Requests.objects.all()
+    pagination_class = pagination.MyCustomPagination
+class ReportsViewSet(viewsets.ModelViewSet):
+    serializer_class = serializers.ReportsSerializer
+    queryset = models.Reports.objects.all()
+    pagination_class = pagination.MyCustomPagination

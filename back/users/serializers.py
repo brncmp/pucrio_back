@@ -15,3 +15,12 @@ class ProductsSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Products
         fields = '__all__'
+        
+class RequestsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Requests
+        fields = '__all__'
+class ReportsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Reports
+        fields = '__all__'

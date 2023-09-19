@@ -27,3 +27,11 @@ Swagger em:
 
 Figma em:
     https://www.figma.com/file/IbEeaNBYqEB5ZzQPaK6et7/mvp2?type=design&node-id=13%3A89&mode=design&t=EZSRXHZnTin0KuSD-1
+
+
+Docker:
+    docker build -t pucrioback .
+    docker run -d -p 8000:8000 pucrioback
+    docker ps (aqui é necessário copiar o campo "CONTAINER ID")
+    docker exec -it "CONTAINER ID" /bin/bash
+

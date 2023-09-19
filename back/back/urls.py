@@ -30,6 +30,8 @@ route = routers.DefaultRouter()
 route.register(r'users', views.UsersViewSet, basename = "Users")
 route.register(r'store', views.StoreViewSet, basename = "Store")
 route.register(r'products', views.ProductsViewSet, basename = "Products")
+route.register(r'requests', views.RequestsViewSet, basename = "Requests")
+route.register(r'reports', views.ReportsViewSet, basename = "Reports")
 
 schema_view = get_schema_view(
    openapi.Info(

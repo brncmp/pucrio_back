@@ -37,3 +37,14 @@ class Products (models.Model):
     drinks = models.JSONField(default=list, blank=True, null=True)
     foods = models.JSONField(default=list, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True, null=True, blank=True)
+    
+class Requests (models.Model):
+    store = models.ForeignKey(Store, on_delete=models.CASCADE, to_field='name')
+    request = models.JSONField(default=list, blank=True, null=True)
+    store_origin = models.CharField(max_length=100, blank=True, null=True)
+    customer_destination = models.CharField(max_length=100, blank=True, null=True)
+    created_at = models.DateTimeField(auto_now_add=True, null=True, blank=True)
+class Reports (models.Model):
+    store = models.ForeignKey(Store, on_delete=models.CASCADE, to_field='name')
+    report = models.CharField(max_length=300)
+    created_at = models.DateTimeField(auto_now_add=True, null=True, blank=True)
